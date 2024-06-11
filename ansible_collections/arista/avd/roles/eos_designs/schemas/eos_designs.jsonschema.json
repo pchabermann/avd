@@ -888,6 +888,35 @@
                   "type": "string",
                   "title": "Session Tracker"
                 },
+                "shared_secret": {
+                  "type": "object",
+                  "properties": {
+                    "profile": {
+                      "type": "string",
+                      "description": "Name of profile defined under `management_security`.",
+                      "title": "Profile"
+                    },
+                    "hash_algorithm": {
+                      "type": "string",
+                      "description": "Note: Algorithm hmac-sha-256 requires EOS version 4.31.1F and above.",
+                      "enum": [
+                        "aes-128-cmac-96",
+                        "hmac-sha-256",
+                        "hmac-sha1-96"
+                      ],
+                      "title": "Hash Algorithm"
+                    }
+                  },
+                  "required": [
+                    "profile",
+                    "hash_algorithm"
+                  ],
+                  "additionalProperties": false,
+                  "patternProperties": {
+                    "^_.+$": {}
+                  },
+                  "title": "Shared Secret"
+                },
                 "ttl_maximum_hops": {
                   "type": "integer",
                   "minimum": 0,
@@ -1233,6 +1262,35 @@
                 "session_tracker": {
                   "type": "string",
                   "title": "Session Tracker"
+                },
+                "shared_secret": {
+                  "type": "object",
+                  "properties": {
+                    "profile": {
+                      "type": "string",
+                      "description": "Name of profile defined under `management_security`.",
+                      "title": "Profile"
+                    },
+                    "hash_algorithm": {
+                      "type": "string",
+                      "description": "Note: Algorithm hmac-sha-256 requires EOS version 4.31.1F and above.",
+                      "enum": [
+                        "aes-128-cmac-96",
+                        "hmac-sha-256",
+                        "hmac-sha1-96"
+                      ],
+                      "title": "Hash Algorithm"
+                    }
+                  },
+                  "required": [
+                    "profile",
+                    "hash_algorithm"
+                  ],
+                  "additionalProperties": false,
+                  "patternProperties": {
+                    "^_.+$": {}
+                  },
+                  "title": "Shared Secret"
                 },
                 "ttl_maximum_hops": {
                   "type": "integer",
@@ -1580,6 +1638,35 @@
                   "type": "string",
                   "title": "Session Tracker"
                 },
+                "shared_secret": {
+                  "type": "object",
+                  "properties": {
+                    "profile": {
+                      "type": "string",
+                      "description": "Name of profile defined under `management_security`.",
+                      "title": "Profile"
+                    },
+                    "hash_algorithm": {
+                      "type": "string",
+                      "description": "Note: Algorithm hmac-sha-256 requires EOS version 4.31.1F and above.",
+                      "enum": [
+                        "aes-128-cmac-96",
+                        "hmac-sha-256",
+                        "hmac-sha1-96"
+                      ],
+                      "title": "Hash Algorithm"
+                    }
+                  },
+                  "required": [
+                    "profile",
+                    "hash_algorithm"
+                  ],
+                  "additionalProperties": false,
+                  "patternProperties": {
+                    "^_.+$": {}
+                  },
+                  "title": "Shared Secret"
+                },
                 "ttl_maximum_hops": {
                   "type": "integer",
                   "minimum": 0,
@@ -1925,6 +2012,35 @@
                 "session_tracker": {
                   "type": "string",
                   "title": "Session Tracker"
+                },
+                "shared_secret": {
+                  "type": "object",
+                  "properties": {
+                    "profile": {
+                      "type": "string",
+                      "description": "Name of profile defined under `management_security`.",
+                      "title": "Profile"
+                    },
+                    "hash_algorithm": {
+                      "type": "string",
+                      "description": "Note: Algorithm hmac-sha-256 requires EOS version 4.31.1F and above.",
+                      "enum": [
+                        "aes-128-cmac-96",
+                        "hmac-sha-256",
+                        "hmac-sha1-96"
+                      ],
+                      "title": "Hash Algorithm"
+                    }
+                  },
+                  "required": [
+                    "profile",
+                    "hash_algorithm"
+                  ],
+                  "additionalProperties": false,
+                  "patternProperties": {
+                    "^_.+$": {}
+                  },
+                  "title": "Shared Secret"
                 },
                 "ttl_maximum_hops": {
                   "type": "integer",
@@ -2272,6 +2388,35 @@
                   "type": "string",
                   "title": "Session Tracker"
                 },
+                "shared_secret": {
+                  "type": "object",
+                  "properties": {
+                    "profile": {
+                      "type": "string",
+                      "description": "Name of profile defined under `management_security`.",
+                      "title": "Profile"
+                    },
+                    "hash_algorithm": {
+                      "type": "string",
+                      "description": "Note: Algorithm hmac-sha-256 requires EOS version 4.31.1F and above.",
+                      "enum": [
+                        "aes-128-cmac-96",
+                        "hmac-sha-256",
+                        "hmac-sha1-96"
+                      ],
+                      "title": "Hash Algorithm"
+                    }
+                  },
+                  "required": [
+                    "profile",
+                    "hash_algorithm"
+                  ],
+                  "additionalProperties": false,
+                  "patternProperties": {
+                    "^_.+$": {}
+                  },
+                  "title": "Shared Secret"
+                },
                 "ttl_maximum_hops": {
                   "type": "integer",
                   "minimum": 0,
@@ -2618,6 +2763,35 @@
                   "type": "string",
                   "title": "Session Tracker"
                 },
+                "shared_secret": {
+                  "type": "object",
+                  "properties": {
+                    "profile": {
+                      "type": "string",
+                      "description": "Name of profile defined under `management_security`.",
+                      "title": "Profile"
+                    },
+                    "hash_algorithm": {
+                      "type": "string",
+                      "description": "Note: Algorithm hmac-sha-256 requires EOS version 4.31.1F and above.",
+                      "enum": [
+                        "aes-128-cmac-96",
+                        "hmac-sha-256",
+                        "hmac-sha1-96"
+                      ],
+                      "title": "Hash Algorithm"
+                    }
+                  },
+                  "required": [
+                    "profile",
+                    "hash_algorithm"
+                  ],
+                  "additionalProperties": false,
+                  "patternProperties": {
+                    "^_.+$": {}
+                  },
+                  "title": "Shared Secret"
+                },
                 "ttl_maximum_hops": {
                   "type": "integer",
                   "minimum": 0,
@@ -2963,6 +3137,35 @@
                 "session_tracker": {
                   "type": "string",
                   "title": "Session Tracker"
+                },
+                "shared_secret": {
+                  "type": "object",
+                  "properties": {
+                    "profile": {
+                      "type": "string",
+                      "description": "Name of profile defined under `management_security`.",
+                      "title": "Profile"
+                    },
+                    "hash_algorithm": {
+                      "type": "string",
+                      "description": "Note: Algorithm hmac-sha-256 requires EOS version 4.31.1F and above.",
+                      "enum": [
+                        "aes-128-cmac-96",
+                        "hmac-sha-256",
+                        "hmac-sha1-96"
+                      ],
+                      "title": "Hash Algorithm"
+                    }
+                  },
+                  "required": [
+                    "profile",
+                    "hash_algorithm"
+                  ],
+                  "additionalProperties": false,
+                  "patternProperties": {
+                    "^_.+$": {}
+                  },
+                  "title": "Shared Secret"
                 },
                 "ttl_maximum_hops": {
                   "type": "integer",
@@ -3363,6 +3566,35 @@
                   "type": "string",
                   "title": "Session Tracker"
                 },
+                "shared_secret": {
+                  "type": "object",
+                  "properties": {
+                    "profile": {
+                      "type": "string",
+                      "description": "Name of profile defined under `management_security`.",
+                      "title": "Profile"
+                    },
+                    "hash_algorithm": {
+                      "type": "string",
+                      "description": "Note: Algorithm hmac-sha-256 requires EOS version 4.31.1F and above.",
+                      "enum": [
+                        "aes-128-cmac-96",
+                        "hmac-sha-256",
+                        "hmac-sha1-96"
+                      ],
+                      "title": "Hash Algorithm"
+                    }
+                  },
+                  "required": [
+                    "profile",
+                    "hash_algorithm"
+                  ],
+                  "additionalProperties": false,
+                  "patternProperties": {
+                    "^_.+$": {}
+                  },
+                  "title": "Shared Secret"
+                },
                 "ttl_maximum_hops": {
                   "type": "integer",
                   "minimum": 0,
@@ -3753,6 +3985,35 @@
                 "session_tracker": {
                   "type": "string",
                   "title": "Session Tracker"
+                },
+                "shared_secret": {
+                  "type": "object",
+                  "properties": {
+                    "profile": {
+                      "type": "string",
+                      "description": "Name of profile defined under `management_security`.",
+                      "title": "Profile"
+                    },
+                    "hash_algorithm": {
+                      "type": "string",
+                      "description": "Note: Algorithm hmac-sha-256 requires EOS version 4.31.1F and above.",
+                      "enum": [
+                        "aes-128-cmac-96",
+                        "hmac-sha-256",
+                        "hmac-sha1-96"
+                      ],
+                      "title": "Hash Algorithm"
+                    }
+                  },
+                  "required": [
+                    "profile",
+                    "hash_algorithm"
+                  ],
+                  "additionalProperties": false,
+                  "patternProperties": {
+                    "^_.+$": {}
+                  },
+                  "title": "Shared Secret"
                 },
                 "ttl_maximum_hops": {
                   "type": "integer",
@@ -4546,10 +4807,11 @@
           },
           "type": {
             "type": "string",
+            "description": "Internet-exit policy type.\ndirect: Exit directly over wan interfaces\nzscaler: Exit using Zscaler secure web gateway service",
             "enum": [
+              "direct",
               "zscaler"
             ],
-            "description": "Internet-exit policy type.\nOnly Zscaler supported.",
             "title": "Type"
           },
           "fallback_to_system_default": {
@@ -4647,6 +4909,9 @@
         "properties": {
           "name": {
             "type": "string",
+            "minLength": 1,
+            "maxLength": 128,
+            "pattern": "^[A-Za-z0-9_.:{}\\[\\]-]+$",
             "title": "Name"
           },
           "description": {
@@ -4669,6 +4934,9 @@
                 "name": {
                   "type": "string",
                   "description": "The site name.",
+                  "minLength": 1,
+                  "maxLength": 128,
+                  "pattern": "^[A-Za-z0-9_.:{}\\[\\]-]+$",
                   "title": "Name"
                 },
                 "description": {
@@ -4721,6 +4989,11 @@
       },
       "title": "Cv Pathfinder Regions"
     },
+    "cv_server": {
+      "description": "PREVIEW: These keys are in preview mode.\n\nHostname or IP address of CloudVision host. Ex. \"www.arista.io\" for CVaaS.\nFor `eos_designs` this variable is only used for the WAN Internet-exit integration with Zscaler.\nThe same variable name is also used by the `cv_deploy` role, and will override the value of `ansible_host` on inventory 'cloudvision' host.\nMake sure to set it in a common group_vars file.",
+      "type": "string",
+      "title": "Cv Server"
+    },
     "cv_tags_topology_type": {
       "description": "PREVIEW: This key is currently not supported\nDevice type that CloudVision should use when generating the Topology. Defaults to the setting under node_type_keys.",
       "type": "string",
@@ -4731,6 +5004,11 @@
         "edge"
       ],
       "title": "Cv Tags Topology Type"
+    },
+    "cv_token": {
+      "description": "PREVIEW: These keys are in preview mode.\n\nService account token as defined on CloudVision. This value should be using Ansible Vault.\nFor `eos_designs` this variable is only used for the WAN Internet-exit integration with Zscaler.\nThe same variable name is also used by the `cv_deploy` role, and will override the value of `ansible_password` on inventory 'cloudvision' host.\nMake sure to set it in a common group_vars file.",
+      "type": "string",
+      "title": "Cv Token"
     },
     "cv_topology": {
       "type": "array",
@@ -5045,8 +5323,35 @@
           },
           "action": {
             "type": "string",
-            "description": "Command to execute.\n",
+            "description": "Command to execute.\n\nThis key is deprecated. Support will be removed in AVD version 5.0.0. Use <samp>event_handlers.actions</samp> instead.",
+            "deprecated": true,
             "title": "Action"
+          },
+          "actions": {
+            "type": "object",
+            "description": "Note: `bash_command` and `log` are mutually exclusive. `bash_command` takes precedence over `log`.",
+            "properties": {
+              "bash_command": {
+                "type": "string",
+                "description": "Define BASH command action. Command could be multiline also.",
+                "title": "Bash Command"
+              },
+              "log": {
+                "type": "boolean",
+                "description": "Log a message when the event is triggered.",
+                "title": "Log"
+              },
+              "increment_device_health_metric": {
+                "type": "string",
+                "description": "Name of device-health metric.",
+                "title": "Increment Device Health Metric"
+              }
+            },
+            "additionalProperties": false,
+            "patternProperties": {
+              "^_.+$": {}
+            },
+            "title": "Actions"
           },
           "delay": {
             "type": "integer",
@@ -6053,6 +6358,7 @@
                   "qos dual-rate-policer",
                   "route",
                   "routed-port",
+                  "segment-security",
                   "subinterface",
                   "tapagg",
                   "traffic-class",
@@ -7212,14 +7518,13 @@
                       "title": "Tunnel Interface Numbers"
                     }
                   },
-                  "required": [
-                    "tunnel_interface_numbers",
-                    "name"
-                  ],
                   "additionalProperties": false,
                   "patternProperties": {
                     "^_.+$": {}
-                  }
+                  },
+                  "required": [
+                    "name"
+                  ]
                 },
                 "title": "Policies"
               }
@@ -8387,6 +8692,37 @@
                 },
                 "title": "MAC Security"
               },
+              "tcp_mss_ceiling": {
+                "type": "object",
+                "description": "The TCP MSS clamping feature involves clamping the maximum segment size (MSS) in the TCP header\nof TCP SYN packets if it exceeds the configured MSS ceiling limit for the interface.",
+                "properties": {
+                  "ipv4_segment_size": {
+                    "type": "integer",
+                    "minimum": 64,
+                    "maximum": 65475,
+                    "title": "IPv4 Segment Size"
+                  },
+                  "ipv6_segment_size": {
+                    "type": "integer",
+                    "minimum": 64,
+                    "maximum": 65475,
+                    "title": "IPv6 Segment Size"
+                  },
+                  "direction": {
+                    "type": "string",
+                    "enum": [
+                      "egress",
+                      "ingress"
+                    ],
+                    "title": "Direction"
+                  }
+                },
+                "additionalProperties": false,
+                "patternProperties": {
+                  "^_.+$": {}
+                },
+                "title": "TCP Mss Ceiling"
+              },
               "channel_group": {
                 "type": "object",
                 "properties": {
@@ -9364,6 +9700,19 @@
               "transceiver": {
                 "type": "object",
                 "properties": {
+                  "frequency": {
+                    "type": "string",
+                    "description": "Transceiver Laser Frequency in GHz (min 190000, max 200000).",
+                    "title": "Frequency"
+                  },
+                  "frequency_unit": {
+                    "type": "string",
+                    "enum": [
+                      "ghz"
+                    ],
+                    "description": "Unit of Transceiver Laser Frequency.",
+                    "title": "Frequency Unit"
+                  },
                   "media": {
                     "type": "object",
                     "properties": {
@@ -14140,6 +14489,37 @@
                 },
                 "title": "MAC Security"
               },
+              "tcp_mss_ceiling": {
+                "type": "object",
+                "description": "The TCP MSS clamping feature involves clamping the maximum segment size (MSS) in the TCP header\nof TCP SYN packets if it exceeds the configured MSS ceiling limit for the interface.",
+                "properties": {
+                  "ipv4_segment_size": {
+                    "type": "integer",
+                    "minimum": 64,
+                    "maximum": 65475,
+                    "title": "IPv4 Segment Size"
+                  },
+                  "ipv6_segment_size": {
+                    "type": "integer",
+                    "minimum": 64,
+                    "maximum": 65475,
+                    "title": "IPv6 Segment Size"
+                  },
+                  "direction": {
+                    "type": "string",
+                    "enum": [
+                      "egress",
+                      "ingress"
+                    ],
+                    "title": "Direction"
+                  }
+                },
+                "additionalProperties": false,
+                "patternProperties": {
+                  "^_.+$": {}
+                },
+                "title": "TCP Mss Ceiling"
+              },
               "channel_group": {
                 "type": "object",
                 "properties": {
@@ -15117,6 +15497,19 @@
               "transceiver": {
                 "type": "object",
                 "properties": {
+                  "frequency": {
+                    "type": "string",
+                    "description": "Transceiver Laser Frequency in GHz (min 190000, max 200000).",
+                    "title": "Frequency"
+                  },
+                  "frequency_unit": {
+                    "type": "string",
+                    "enum": [
+                      "ghz"
+                    ],
+                    "description": "Unit of Transceiver Laser Frequency.",
+                    "title": "Frequency Unit"
+                  },
                   "media": {
                     "type": "object",
                     "properties": {
@@ -18632,6 +19025,50 @@
                       "type": "string",
                       "title": "DNS Domain Name IPv6"
                     },
+                    "dns_servers_ipv4": {
+                      "type": "array",
+                      "minItems": 1,
+                      "description": "List of DNS servers for IPv4 clients.",
+                      "items": {
+                        "type": "string",
+                        "description": "IPv4 address of DNS server."
+                      },
+                      "title": "DNS Servers IPv4"
+                    },
+                    "dns_servers_ipv6": {
+                      "type": "array",
+                      "minItems": 1,
+                      "description": "List of DNS servers for IPv6 clients.",
+                      "items": {
+                        "type": "string",
+                        "description": "IPv6 address of DNS server."
+                      },
+                      "title": "DNS Servers IPv6"
+                    },
+                    "tftp_server": {
+                      "type": "object",
+                      "properties": {
+                        "file_ipv4": {
+                          "type": "string",
+                          "minLength": 1,
+                          "maxLength": 255,
+                          "description": "Name of TFTP file for IPv4 clients.",
+                          "title": "File IPv4"
+                        },
+                        "file_ipv6": {
+                          "type": "string",
+                          "minLength": 1,
+                          "maxLength": 255,
+                          "description": "Name of TFTP file for IPv6 clients.",
+                          "title": "File IPv6"
+                        }
+                      },
+                      "additionalProperties": false,
+                      "patternProperties": {
+                        "^_.+$": {}
+                      },
+                      "title": "Tftp Server"
+                    },
                     "ipv4_vendor_options": {
                       "type": "array",
                       "items": {
@@ -19015,6 +19452,13 @@
                           "^_.+$": {}
                         },
                         "title": "Unresponsive"
+                      },
+                      "accounting_update_interval": {
+                        "type": "integer",
+                        "minimum": 5,
+                        "maximum": 65535,
+                        "description": "Interval period in seconds.",
+                        "title": "Accounting Update Interval"
                       }
                     },
                     "additionalProperties": false,
@@ -20450,6 +20894,37 @@
                       },
                       "title": "MAC Security"
                     },
+                    "tcp_mss_ceiling": {
+                      "type": "object",
+                      "description": "The TCP MSS clamping feature involves clamping the maximum segment size (MSS) in the TCP header\nof TCP SYN packets if it exceeds the configured MSS ceiling limit for the interface.",
+                      "properties": {
+                        "ipv4_segment_size": {
+                          "type": "integer",
+                          "minimum": 64,
+                          "maximum": 65475,
+                          "title": "IPv4 Segment Size"
+                        },
+                        "ipv6_segment_size": {
+                          "type": "integer",
+                          "minimum": 64,
+                          "maximum": 65475,
+                          "title": "IPv6 Segment Size"
+                        },
+                        "direction": {
+                          "type": "string",
+                          "enum": [
+                            "egress",
+                            "ingress"
+                          ],
+                          "title": "Direction"
+                        }
+                      },
+                      "additionalProperties": false,
+                      "patternProperties": {
+                        "^_.+$": {}
+                      },
+                      "title": "TCP Mss Ceiling"
+                    },
                     "channel_group": {
                       "type": "object",
                       "properties": {
@@ -21427,6 +21902,19 @@
                     "transceiver": {
                       "type": "object",
                       "properties": {
+                        "frequency": {
+                          "type": "string",
+                          "description": "Transceiver Laser Frequency in GHz (min 190000, max 200000).",
+                          "title": "Frequency"
+                        },
+                        "frequency_unit": {
+                          "type": "string",
+                          "enum": [
+                            "ghz"
+                          ],
+                          "description": "Unit of Transceiver Laser Frequency.",
+                          "title": "Frequency Unit"
+                        },
                         "media": {
                           "type": "object",
                           "properties": {
@@ -22193,8 +22681,35 @@
                     },
                     "action": {
                       "type": "string",
-                      "description": "Command to execute.\n",
+                      "description": "Command to execute.\n\nThis key is deprecated. Support will be removed in AVD version 5.0.0. Use <samp>event_handlers.actions</samp> instead.",
+                      "deprecated": true,
                       "title": "Action"
+                    },
+                    "actions": {
+                      "type": "object",
+                      "description": "Note: `bash_command` and `log` are mutually exclusive. `bash_command` takes precedence over `log`.",
+                      "properties": {
+                        "bash_command": {
+                          "type": "string",
+                          "description": "Define BASH command action. Command could be multiline also.",
+                          "title": "Bash Command"
+                        },
+                        "log": {
+                          "type": "boolean",
+                          "description": "Log a message when the event is triggered.",
+                          "title": "Log"
+                        },
+                        "increment_device_health_metric": {
+                          "type": "string",
+                          "description": "Name of device-health metric.",
+                          "title": "Increment Device Health Metric"
+                        }
+                      },
+                      "additionalProperties": false,
+                      "patternProperties": {
+                        "^_.+$": {}
+                      },
+                      "title": "Actions"
                     },
                     "delay": {
                       "type": "integer",
@@ -23004,6 +23519,7 @@
                             "qos dual-rate-policer",
                             "route",
                             "routed-port",
+                            "segment-security",
                             "subinterface",
                             "tapagg",
                             "traffic-class",
@@ -26383,6 +26899,33 @@
                             "^_.+$": {}
                           },
                           "title": "L2 Protocols"
+                        },
+                        "traffic_unprotected": {
+                          "type": "object",
+                          "properties": {
+                            "action": {
+                              "type": "string",
+                              "description": "Allow/drop the transmit/receive of unprotected traffic.",
+                              "enum": [
+                                "allow",
+                                "drop"
+                              ],
+                              "title": "Action"
+                            },
+                            "allow_active_sak": {
+                              "type": "boolean",
+                              "description": "Allow transmit/receive of encrypted traffic using operational SAK and block otherwise.",
+                              "title": "Allow Active Sak"
+                            }
+                          },
+                          "required": [
+                            "action"
+                          ],
+                          "additionalProperties": false,
+                          "patternProperties": {
+                            "^_.+$": {}
+                          },
+                          "title": "Traffic Unprotected"
                         }
                       },
                       "additionalProperties": false,
@@ -27335,7 +27878,7 @@
                         },
                         "cipher_list": {
                           "type": "string",
-                          "description": "cipher_list syntax follows the openssl cipher strings format.\nColon (:) separated list of allowed ciphers as a string\n",
+                          "description": "cipher_list syntax follows the openssl cipher strings format.\nColon (:) separated list of allowed ciphers as a string.\n",
                           "title": "Cipher List"
                         },
                         "trust_certificate": {
@@ -27453,6 +27996,116 @@
                       }
                     },
                     "title": "SSL Profiles"
+                  },
+                  "shared_secret_profiles": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "profile": {
+                          "type": "string",
+                          "title": "Profile"
+                        },
+                        "secrets": {
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "properties": {
+                              "name": {
+                                "type": "string",
+                                "title": "Name"
+                              },
+                              "secret": {
+                                "type": "string",
+                                "title": "Secret"
+                              },
+                              "secret_type": {
+                                "type": "string",
+                                "default": "7",
+                                "enum": [
+                                  "0",
+                                  "7",
+                                  "8a"
+                                ],
+                                "title": "Secret Type"
+                              },
+                              "receive_lifetime": {
+                                "type": "object",
+                                "properties": {
+                                  "infinite": {
+                                    "type": "boolean",
+                                    "title": "Infinite"
+                                  },
+                                  "start_date_time": {
+                                    "type": "string",
+                                    "description": "Start date and time of lifetime of the secret. End date should be greater than start date.\nFormats supported:\n1. mm/dd/yyyy hh:mm:ss\n2. yyyy-mm-dd hh:mm:ss\ne.g 2024-12-20 10:00:00",
+                                    "title": "Start Date Time"
+                                  },
+                                  "end_date_time": {
+                                    "type": "string",
+                                    "description": "End date and time of lifetime of the secret. End date should be greater than start date.\nFormats supported:\n1. mm/dd/yyyy hh:mm:ss\n2. yyyy-mm-dd hh:mm:ss\ne.g 2024-12-20 10:00:00",
+                                    "title": "End Date Time"
+                                  }
+                                },
+                                "additionalProperties": false,
+                                "patternProperties": {
+                                  "^_.+$": {}
+                                },
+                                "title": "Receive Lifetime"
+                              },
+                              "transmit_lifetime": {
+                                "type": "object",
+                                "properties": {
+                                  "infinite": {
+                                    "type": "boolean",
+                                    "title": "Infinite"
+                                  },
+                                  "start_date_time": {
+                                    "type": "string",
+                                    "description": "Start date and time of lifetime of the secret. End date should be greater than start date.\nFormats supported:\n1. mm/dd/yyyy hh:mm:ss\n2. yyyy-mm-dd hh:mm:ss\ne.g 2024-12-20 10:00:00",
+                                    "title": "Start Date Time"
+                                  },
+                                  "end_date_time": {
+                                    "type": "string",
+                                    "description": "End date and time of lifetime of the secret. End date should be greater than start date.\nFormats supported:\n1. mm/dd/yyyy hh:mm:ss\n2. yyyy-mm-dd hh:mm:ss\ne.g 2024-12-20 10:00:00",
+                                    "title": "End Date Time"
+                                  }
+                                },
+                                "additionalProperties": false,
+                                "patternProperties": {
+                                  "^_.+$": {}
+                                },
+                                "title": "Transmit Lifetime"
+                              },
+                              "local_time": {
+                                "type": "boolean",
+                                "description": "Configuring secret using the local timezone from system clock. Default is UTC.",
+                                "title": "Local Time"
+                              }
+                            },
+                            "required": [
+                              "secret",
+                              "receive_lifetime",
+                              "transmit_lifetime",
+                              "name"
+                            ],
+                            "additionalProperties": false,
+                            "patternProperties": {
+                              "^_.+$": {}
+                            }
+                          },
+                          "title": "Secrets"
+                        }
+                      },
+                      "additionalProperties": false,
+                      "patternProperties": {
+                        "^_.+$": {}
+                      },
+                      "required": [
+                        "profile"
+                      ]
+                    },
+                    "title": "Shared Secret Profiles"
                   }
                 },
                 "additionalProperties": false,
@@ -28716,6 +29369,11 @@
                         "type": "boolean",
                         "description": "Enable transceiver SMBus fail and reset logging.",
                         "title": "Communication"
+                      },
+                      "enabled": {
+                        "type": "boolean",
+                        "description": "Some platforms support only the `logging transceiver` command. `enabled` key configures this command.",
+                        "title": "Enabled"
                       }
                     },
                     "additionalProperties": false,
@@ -29019,6 +29677,253 @@
                 },
                 "title": "Monitor Telemetry Influx"
               },
+              "monitor_telemetry_postcard_policy": {
+                "type": "object",
+                "properties": {
+                  "disabled": {
+                    "type": "boolean",
+                    "default": true,
+                    "description": "Enable or disable the postcard telemetry feature.",
+                    "title": "Disabled"
+                  },
+                  "ingress": {
+                    "type": "object",
+                    "properties": {
+                      "collection": {
+                        "type": "object",
+                        "description": "Collector configuration.",
+                        "properties": {
+                          "source": {
+                            "type": "string",
+                            "description": "Source IP address of GRE tunnel.",
+                            "title": "Source"
+                          },
+                          "destination": {
+                            "type": "string",
+                            "description": "Destination IP address of GRE tunnel.",
+                            "title": "Destination"
+                          },
+                          "version": {
+                            "type": "integer",
+                            "description": "Postcard version.",
+                            "enum": [
+                              1,
+                              2
+                            ],
+                            "title": "Version"
+                          }
+                        },
+                        "additionalProperties": false,
+                        "patternProperties": {
+                          "^_.+$": {}
+                        },
+                        "title": "Collection"
+                      },
+                      "sample": {
+                        "type": "object",
+                        "description": "Sampling parameters.",
+                        "properties": {
+                          "rate": {
+                            "type": "integer",
+                            "description": "Sampling rate. `rate` is preferred when both `rate` and `tcp_udp_checksum` are defined.",
+                            "enum": [
+                              16384,
+                              32768,
+                              65536
+                            ],
+                            "title": "Rate"
+                          },
+                          "tcp_udp_checksum": {
+                            "type": "object",
+                            "description": "TCP/UDP parameters.",
+                            "properties": {
+                              "value": {
+                                "type": "integer",
+                                "description": "TCP/UDP checksum or IP ID value.",
+                                "minimum": 0,
+                                "maximum": 65535,
+                                "title": "Value"
+                              },
+                              "mask": {
+                                "type": "string",
+                                "description": "16 bit hexadecimal mask for TCP/UDP or IP ID with atmost 2 unset bits.",
+                                "title": "Mask"
+                              }
+                            },
+                            "additionalProperties": false,
+                            "patternProperties": {
+                              "^_.+$": {}
+                            },
+                            "title": "TCP UDP Checksum"
+                          }
+                        },
+                        "additionalProperties": false,
+                        "patternProperties": {
+                          "^_.+$": {}
+                        },
+                        "title": "Sample"
+                      }
+                    },
+                    "additionalProperties": false,
+                    "patternProperties": {
+                      "^_.+$": {}
+                    },
+                    "title": "Ingress"
+                  },
+                  "marker_vxlan": {
+                    "type": "object",
+                    "properties": {
+                      "enabled": {
+                        "type": "boolean",
+                        "description": "Enable vxlan marking using default bit 0.",
+                        "title": "Enabled"
+                      },
+                      "header_word_zero_bit": {
+                        "type": "integer",
+                        "minimum": 1,
+                        "maximum": 31,
+                        "title": "Header Word Zero Bit"
+                      }
+                    },
+                    "additionalProperties": false,
+                    "patternProperties": {
+                      "^_.+$": {}
+                    },
+                    "title": "Marker VxLAN"
+                  },
+                  "profiles": {
+                    "type": "array",
+                    "description": "Postcard telemetry profiles.",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string",
+                          "description": "Profile name.",
+                          "title": "Name"
+                        },
+                        "ingress_sample_policy": {
+                          "type": "string",
+                          "title": "Ingress Sample Policy"
+                        }
+                      },
+                      "additionalProperties": false,
+                      "patternProperties": {
+                        "^_.+$": {}
+                      },
+                      "required": [
+                        "name"
+                      ]
+                    },
+                    "title": "Profiles"
+                  },
+                  "sample_policies": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string",
+                          "title": "Name"
+                        },
+                        "match_rules": {
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "properties": {
+                              "name": {
+                                "type": "string",
+                                "title": "Name"
+                              },
+                              "type": {
+                                "type": "string",
+                                "description": "IP address version.",
+                                "enum": [
+                                  "ipv4",
+                                  "ipv6"
+                                ],
+                                "title": "Type"
+                              },
+                              "destination_prefix": {
+                                "type": "string",
+                                "description": "IPv4 Network/Mask or IPv6 Network/Mask. Host part of prefix must be zero.\neg. 10.3.3.0/24",
+                                "title": "Destination Prefix"
+                              },
+                              "source_prefix": {
+                                "type": "string",
+                                "description": "IPv4 Network/Mask or IPv6 Network/Mask. Host part of prefix must be zero.\neg. 10.3.3.0/24",
+                                "title": "Source Prefix"
+                              },
+                              "protocols": {
+                                "type": "array",
+                                "items": {
+                                  "type": "object",
+                                  "properties": {
+                                    "protocol": {
+                                      "type": "string",
+                                      "enum": [
+                                        "tcp",
+                                        "udp"
+                                      ],
+                                      "title": "Protocol"
+                                    },
+                                    "source_ports": {
+                                      "type": "array",
+                                      "description": "A list of port numbers or port range or port name. Combination of port numbers or range and port name is not supported on EOS. The port numbers should be in range of 0-65535.\ne.g.\n  [ \"12\", \"14-20\" ]\n  [ \"www\" ]",
+                                      "items": {
+                                        "type": "string"
+                                      },
+                                      "title": "Source Ports"
+                                    },
+                                    "destination_ports": {
+                                      "type": "array",
+                                      "description": "A list of port numbers or port range or port name. Combination of port numbers or range and port name is not supported on EOS. The port numbers should be in range of 0-65535.\ne.g.\n  [ \"12\", \"14-20\", \"80\" ]\n  [ \"https\" ]",
+                                      "items": {
+                                        "type": "string"
+                                      },
+                                      "title": "Destination Ports"
+                                    }
+                                  },
+                                  "additionalProperties": false,
+                                  "patternProperties": {
+                                    "^_.+$": {}
+                                  },
+                                  "required": [
+                                    "protocol"
+                                  ]
+                                },
+                                "title": "Protocols"
+                              }
+                            },
+                            "required": [
+                              "type",
+                              "name"
+                            ],
+                            "additionalProperties": false,
+                            "patternProperties": {
+                              "^_.+$": {}
+                            }
+                          },
+                          "title": "Match Rules"
+                        }
+                      },
+                      "additionalProperties": false,
+                      "patternProperties": {
+                        "^_.+$": {}
+                      },
+                      "required": [
+                        "name"
+                      ]
+                    },
+                    "title": "Sample Policies"
+                  }
+                },
+                "additionalProperties": false,
+                "patternProperties": {
+                  "^_.+$": {}
+                },
+                "title": "Monitor Telemetry Postcard Policy"
+              },
               "mpls": {
                 "type": "object",
                 "properties": {
@@ -29249,6 +30154,78 @@
               "patch_panel": {
                 "type": "object",
                 "properties": {
+                  "connector": {
+                    "type": "object",
+                    "properties": {
+                      "interface": {
+                        "type": "object",
+                        "properties": {
+                          "patch": {
+                            "type": "object",
+                            "properties": {
+                              "bgp_vpws_remote_failure_errdisable": {
+                                "type": "boolean",
+                                "title": "BGP Vpws Remote Failure Errdisable"
+                              }
+                            },
+                            "additionalProperties": false,
+                            "patternProperties": {
+                              "^_.+$": {}
+                            },
+                            "title": "Patch"
+                          },
+                          "recovery": {
+                            "type": "object",
+                            "properties": {
+                              "review_delay": {
+                                "type": "object",
+                                "properties": {
+                                  "min": {
+                                    "type": "integer",
+                                    "minimum": 10,
+                                    "maximum": 600,
+                                    "description": "Minimum delay.",
+                                    "title": "Min"
+                                  },
+                                  "max": {
+                                    "type": "integer",
+                                    "minimum": 15,
+                                    "maximum": 900,
+                                    "description": "Maximum delay.",
+                                    "title": "Max"
+                                  }
+                                },
+                                "required": [
+                                  "min",
+                                  "max"
+                                ],
+                                "additionalProperties": false,
+                                "patternProperties": {
+                                  "^_.+$": {}
+                                },
+                                "title": "Review Delay"
+                              }
+                            },
+                            "additionalProperties": false,
+                            "patternProperties": {
+                              "^_.+$": {}
+                            },
+                            "title": "Recovery"
+                          }
+                        },
+                        "additionalProperties": false,
+                        "patternProperties": {
+                          "^_.+$": {}
+                        },
+                        "title": "Interface"
+                      }
+                    },
+                    "additionalProperties": false,
+                    "patternProperties": {
+                      "^_.+$": {}
+                    },
+                    "title": "Connector"
+                  },
                   "patches": {
                     "type": "array",
                     "items": {
@@ -29972,6 +30949,60 @@
                       ]
                     },
                     "title": "QOS"
+                  },
+                  "copp_system_policy": {
+                    "type": "object",
+                    "description": "Control-plane policy configuration.",
+                    "properties": {
+                      "classes": {
+                        "type": "array",
+                        "items": {
+                          "type": "object",
+                          "properties": {
+                            "name": {
+                              "type": "string",
+                              "title": "Name"
+                            },
+                            "shape": {
+                              "type": "integer",
+                              "description": "Maximum rate limit.",
+                              "minimum": 0,
+                              "maximum": 10000000,
+                              "title": "Shape"
+                            },
+                            "bandwidth": {
+                              "type": "integer",
+                              "description": "Minimum bandwidth.",
+                              "minimum": 0,
+                              "maximum": 10000000,
+                              "title": "Bandwidth"
+                            },
+                            "rate_unit": {
+                              "type": "string",
+                              "description": "The `rate_unit` must be defined for `shape` and `bandwidth`.",
+                              "enum": [
+                                "pps",
+                                "kbps"
+                              ],
+                              "title": "Rate Unit"
+                            }
+                          },
+                          "additionalProperties": false,
+                          "patternProperties": {
+                            "^_.+$": {}
+                          },
+                          "required": [
+                            "name"
+                          ]
+                        },
+                        "title": "Classes"
+                      }
+                    },
+                    "additionalProperties": false,
+                    "patternProperties": {
+                      "^_.+$": {}
+                    },
+                    "title": "Copp System Policy"
                   }
                 },
                 "additionalProperties": false,
@@ -33192,6 +34223,7 @@
                     "properties": {
                       "name": {
                         "type": "string",
+                        "pattern": "^[A-Za-z0-9_.:{}\\[\\]-]+$",
                         "title": "Name"
                       },
                       "id": {
@@ -33217,6 +34249,7 @@
                     "properties": {
                       "name": {
                         "type": "string",
+                        "pattern": "^[A-Za-z0-9_.:{}\\[\\]-]+$",
                         "title": "Name"
                       },
                       "id": {
@@ -33242,6 +34275,7 @@
                     "properties": {
                       "name": {
                         "type": "string",
+                        "pattern": "^[A-Za-z0-9_.:{}\\[\\]-]+$",
                         "title": "Name"
                       },
                       "id": {
@@ -33781,6 +34815,11 @@
                           "^_.+$": {}
                         },
                         "title": "Bestpath"
+                      },
+                      "redistribute_internal": {
+                        "type": "boolean",
+                        "description": "Allow redistribution of iBGP routes into an Interior Gateway Protocol (IGP). EOS default is true.",
+                        "title": "Redistribute Internal"
                       }
                     },
                     "additionalProperties": false,
@@ -34135,6 +35174,35 @@
                           "type": "string",
                           "title": "Session Tracker"
                         },
+                        "shared_secret": {
+                          "type": "object",
+                          "properties": {
+                            "profile": {
+                              "type": "string",
+                              "description": "Name of profile defined under `management_security`.",
+                              "title": "Profile"
+                            },
+                            "hash_algorithm": {
+                              "type": "string",
+                              "description": "Note: Algorithm hmac-sha-256 requires EOS version 4.31.1F and above.",
+                              "enum": [
+                                "aes-128-cmac-96",
+                                "hmac-sha-256",
+                                "hmac-sha1-96"
+                              ],
+                              "title": "Hash Algorithm"
+                            }
+                          },
+                          "required": [
+                            "profile",
+                            "hash_algorithm"
+                          ],
+                          "additionalProperties": false,
+                          "patternProperties": {
+                            "^_.+$": {}
+                          },
+                          "title": "Shared Secret"
+                        },
                         "ttl_maximum_hops": {
                           "type": "integer",
                           "minimum": 0,
@@ -34446,6 +35514,35 @@
                           "type": "string",
                           "title": "Session Tracker"
                         },
+                        "shared_secret": {
+                          "type": "object",
+                          "properties": {
+                            "profile": {
+                              "type": "string",
+                              "description": "Name of profile defined under `management_security`.",
+                              "title": "Profile"
+                            },
+                            "hash_algorithm": {
+                              "type": "string",
+                              "description": "Note: Algorithm hmac-sha-256 requires EOS version 4.31.1F and above.",
+                              "enum": [
+                                "aes-128-cmac-96",
+                                "hmac-sha-256",
+                                "hmac-sha1-96"
+                              ],
+                              "title": "Hash Algorithm"
+                            }
+                          },
+                          "required": [
+                            "profile",
+                            "hash_algorithm"
+                          ],
+                          "additionalProperties": false,
+                          "patternProperties": {
+                            "^_.+$": {}
+                          },
+                          "title": "Shared Secret"
+                        },
                         "ttl_maximum_hops": {
                           "type": "integer",
                           "minimum": 0,
@@ -34595,6 +35692,18 @@
                         "include_leaked": {
                           "type": "boolean",
                           "title": "Include Leaked"
+                        },
+                        "ospf_route_type": {
+                          "type": "string",
+                          "enum": [
+                            "external",
+                            "internal",
+                            "nssa-external",
+                            "nssa-external 1",
+                            "nssa-external 2"
+                          ],
+                          "description": "Routes learned by the OSPF protocol.\nThe `ospf_route_type` is valid for source_protocols 'ospf' and 'ospfv3'.\n",
+                          "title": "OSPF Route Type"
                         }
                       },
                       "additionalProperties": false,
@@ -35418,6 +36527,31 @@
                           "^_.+$": {}
                         },
                         "title": "BGP Additional Paths"
+                      },
+                      "layer_2_fec_in_place_update": {
+                        "type": "object",
+                        "description": "BGP layer-2 in-place FEC operation.",
+                        "properties": {
+                          "enabled": {
+                            "type": "boolean",
+                            "title": "Enabled"
+                          },
+                          "timeout": {
+                            "type": "integer",
+                            "description": "In-place FEC update tracking timeout in seconds.",
+                            "minimum": 0,
+                            "maximum": 300,
+                            "title": "Timeout"
+                          }
+                        },
+                        "required": [
+                          "enabled"
+                        ],
+                        "additionalProperties": false,
+                        "patternProperties": {
+                          "^_.+$": {}
+                        },
+                        "title": "Layer 2 Fec In Place Update"
                       }
                     },
                     "additionalProperties": false,
@@ -35507,6 +36641,21 @@
                           ]
                         },
                         "title": "Networks"
+                      },
+                      "bgp": {
+                        "type": "object",
+                        "properties": {
+                          "redistribute_internal": {
+                            "type": "boolean",
+                            "description": "Allow redistribution of iBGP routes into an Interior Gateway Protocol (IGP). EOS default is true.",
+                            "title": "Redistribute Internal"
+                          }
+                        },
+                        "additionalProperties": false,
+                        "patternProperties": {
+                          "^_.+$": {}
+                        },
+                        "title": "BGP"
                       },
                       "peer_groups": {
                         "type": "array",
@@ -35723,6 +36872,18 @@
                               "type": "string",
                               "description": "RCF function name with parenthesis.\nExample: MyFunction(myarg).\n`route_map` and `rcf` are mutually exclusive. `route_map` takes precedence.\nOnly applicable if `source_protocol` is one of `connected`, `static`, `isis`, `user`, `dynamic`.",
                               "title": "RCF"
+                            },
+                            "ospf_route_type": {
+                              "type": "string",
+                              "enum": [
+                                "external",
+                                "internal",
+                                "nssa-external",
+                                "nssa-external 1",
+                                "nssa-external 2"
+                              ],
+                              "description": "Routes learned by the OSPF protocol.\nThe `ospf_route_type` is valid for source_protocols 'ospf' and 'ospfv3'.\n",
+                              "title": "OSPF Route Type"
                             }
                           },
                           "additionalProperties": false,
@@ -35836,6 +36997,18 @@
                               "type": "string",
                               "description": "RCF function name with parenthesis.\nExample: MyFunction(myarg).\n`route_map` and `rcf` are mutually exclusive. `route_map` takes precedence.\nOnly applicable if `source_protocol` is `isis`.",
                               "title": "RCF"
+                            },
+                            "ospf_route_type": {
+                              "type": "string",
+                              "enum": [
+                                "external",
+                                "internal",
+                                "nssa-external",
+                                "nssa-external 1",
+                                "nssa-external 2"
+                              ],
+                              "description": "Routes learned by the OSPF protocol.\nThe `ospf_route_type` is valid for source_protocols 'ospf' and 'ospfv3'.\n",
+                              "title": "OSPF Route Type"
                             }
                           },
                           "additionalProperties": false,
@@ -35962,6 +37135,21 @@
                           ]
                         },
                         "title": "Networks"
+                      },
+                      "bgp": {
+                        "type": "object",
+                        "properties": {
+                          "redistribute_internal": {
+                            "type": "boolean",
+                            "description": "Allow redistribution of iBGP routes into an Interior Gateway Protocol (IGP). EOS default is true.",
+                            "title": "Redistribute Internal"
+                          }
+                        },
+                        "additionalProperties": false,
+                        "patternProperties": {
+                          "^_.+$": {}
+                        },
+                        "title": "BGP"
                       },
                       "peer_groups": {
                         "type": "array",
@@ -36093,6 +37281,18 @@
                               "type": "string",
                               "description": "RCF function name with parenthesis.\nExample: MyFunction(myarg).\n`route_map` and `rcf` are mutually exclusive. `route_map` takes precedence.\nOnly used if `source_protocol` is one of `connected`, `static`, `isis`, `user`, `dynamic`.",
                               "title": "RCF"
+                            },
+                            "ospf_route_type": {
+                              "type": "string",
+                              "enum": [
+                                "external",
+                                "internal",
+                                "nssa-external",
+                                "nssa-external 1",
+                                "nssa-external 2"
+                              ],
+                              "description": "Routes learned by the OSPF protocol.\nThe `ospf_route_type` is valid for source_protocols 'ospfv3'.\n",
+                              "title": "OSPF Route Type"
                             }
                           },
                           "additionalProperties": false,
@@ -36280,6 +37480,18 @@
                               "type": "string",
                               "description": "RCF function name with parenthesis.\nExample: MyFunction(myarg).\n`route_map` and `rcf` are mutually exclusive. `route_map` takes precedence.\nOnly applicable if `source_protocol` is `isis`.",
                               "title": "RCF"
+                            },
+                            "ospf_route_type": {
+                              "type": "string",
+                              "enum": [
+                                "external",
+                                "internal",
+                                "nssa-external",
+                                "nssa-external 1",
+                                "nssa-external 2"
+                              ],
+                              "description": "Routes learned by the OSPF protocol.\nThe `ospf_route_type` is valid for source_protocols 'ospf' and 'ospfv3'.\n",
+                              "title": "OSPF Route Type"
                             }
                           },
                           "additionalProperties": false,
@@ -37270,6 +38482,21 @@
                           "description": "VRF name.",
                           "title": "Name"
                         },
+                        "bgp": {
+                          "type": "object",
+                          "properties": {
+                            "redistribute_internal": {
+                              "type": "boolean",
+                              "description": "Allow redistribution of iBGP routes into an Interior Gateway Protocol (IGP). EOS default is true.",
+                              "title": "Redistribute Internal"
+                            }
+                          },
+                          "additionalProperties": false,
+                          "patternProperties": {
+                            "^_.+$": {}
+                          },
+                          "title": "BGP"
+                        },
                         "rd": {
                           "type": "string",
                           "description": "Route distinguisher.",
@@ -37839,6 +39066,18 @@
                                 "type": "string",
                                 "description": "RCF function name with parenthesis.\nExample: MyFunction(myarg).\n`route_map` and `rcf` are mutually exclusive. `route_map` takes precedence.\nOnly applicable if `source_protocol` is one of `connected`, `dynamic`, `isis`, `static` and `user`.",
                                 "title": "RCF"
+                              },
+                              "ospf_route_type": {
+                                "type": "string",
+                                "enum": [
+                                  "external",
+                                  "internal",
+                                  "nssa-external",
+                                  "nssa-external 1",
+                                  "nssa-external 2"
+                                ],
+                                "description": "Routes learned by the OSPF protocol.\nThe `ospf_route_type` is valid for source_protocols 'ospf' and 'ospfv3'.\n",
+                                "title": "OSPF Route Type"
                               }
                             },
                             "additionalProperties": false,
@@ -37993,6 +39232,11 @@
                                     "^_.+$": {}
                                   },
                                   "title": "Additional Paths"
+                                },
+                                "redistribute_internal": {
+                                  "type": "boolean",
+                                  "description": "Allow redistribution of iBGP routes into an Interior Gateway Protocol (IGP). EOS default is true.",
+                                  "title": "Redistribute Internal"
                                 }
                               },
                               "additionalProperties": false,
@@ -38144,6 +39388,18 @@
                                     "type": "string",
                                     "description": "RCF function name with parenthesis.\nExample: MyFunction(myarg).\n`route_map` and `rcf` are mutually exclusive. `route_map` takes precedence.\nOnly applicable if `source_protocol` is one of `connected`, `dynamic`, `isis`, `static` and `user`.",
                                     "title": "RCF"
+                                  },
+                                  "ospf_route_type": {
+                                    "type": "string",
+                                    "enum": [
+                                      "external",
+                                      "internal",
+                                      "nssa-external",
+                                      "nssa-external 1",
+                                      "nssa-external 2"
+                                    ],
+                                    "description": "Routes learned by the OSPF protocol.\nThe `ospf_route_type` is valid for source_protocols 'ospf' and 'ospfv3'.\n",
+                                    "title": "OSPF Route Type"
                                   }
                                 },
                                 "additionalProperties": false,
@@ -38254,6 +39510,11 @@
                                     "^_.+$": {}
                                   },
                                   "title": "Additional Paths"
+                                },
+                                "redistribute_internal": {
+                                  "type": "boolean",
+                                  "description": "Allow redistribution of iBGP routes into an Interior Gateway Protocol (IGP). EOS default is true.",
+                                  "title": "Redistribute Internal"
                                 }
                               },
                               "additionalProperties": false,
@@ -38373,6 +39634,18 @@
                                     "type": "string",
                                     "description": "RCF function name with parenthesis.\nExample: MyFunction(myarg).\n`route_map` and `rcf` are mutually exclusive. `route_map` takes precedence.\nOnly applicable if `source_protocol` is one of `connected`, `dynamic`, `isis`, `static` and `user`.",
                                     "title": "RCF"
+                                  },
+                                  "ospf_route_type": {
+                                    "type": "string",
+                                    "enum": [
+                                      "external",
+                                      "internal",
+                                      "nssa-external",
+                                      "nssa-external 1",
+                                      "nssa-external 2"
+                                    ],
+                                    "description": "Routes learned by the OSPF protocol.\nThe `ospf_route_type` is valid for source_protocols 'ospfv3'.\n",
+                                    "title": "OSPF Route Type"
                                   }
                                 },
                                 "additionalProperties": false,
@@ -38536,6 +39809,18 @@
                                     "type": "string",
                                     "description": "RCF function name with parenthesis.\nExample: MyFunction(myarg).\n`route_map` and `rcf` are mutually exclusive. `route_map` takes precedence.\nOnly applicable if `source_protocol` is `isis`.",
                                     "title": "RCF"
+                                  },
+                                  "ospf_route_type": {
+                                    "type": "string",
+                                    "enum": [
+                                      "external",
+                                      "internal",
+                                      "nssa-external",
+                                      "nssa-external 1",
+                                      "nssa-external 2"
+                                    ],
+                                    "description": "Routes learned by the OSPF protocol.\nThe `ospf_route_type` is valid for source_protocols 'ospf' and 'ospfv3'.\n",
+                                    "title": "OSPF Route Type"
                                   }
                                 },
                                 "additionalProperties": false,
@@ -38698,6 +39983,18 @@
                                     "type": "string",
                                     "description": "RCF function name with parenthesis.\nExample: MyFunction(myarg).\n`route_map` and `rcf` are mutually exclusive. `route_map` takes precedence.\nOnly applicable if `source_protocol` is `isis`.",
                                     "title": "RCF"
+                                  },
+                                  "ospf_route_type": {
+                                    "type": "string",
+                                    "enum": [
+                                      "external",
+                                      "internal",
+                                      "nssa-external",
+                                      "nssa-external 1",
+                                      "nssa-external 2"
+                                    ],
+                                    "description": "Routes learned by the OSPF protocol.\nThe `ospf_route_type` is valid for source_protocols 'ospf' and 'ospfv3'.\n",
+                                    "title": "OSPF Route Type"
                                   }
                                 },
                                 "additionalProperties": false,
@@ -46765,6 +48062,19 @@
         },
         {
           "platforms": [
+            "7010TX"
+          ],
+          "feature_support": {
+            "queue_monitor_length_notify": false,
+            "per_interface_mtu": false
+          },
+          "reload_delay": {
+            "mlag": 300,
+            "non_mlag": 330
+          }
+        },
+        {
+          "platforms": [
             "7280R",
             "7280R2",
             "7020R"
@@ -46882,6 +48192,34 @@
             "mlag": 300,
             "non_mlag": 330
           }
+        },
+        {
+          "platforms": [
+            "AWE-5310",
+            "AWE-5510",
+            "AWE-7250R",
+            "AWE-7230R"
+          ],
+          "feature_support": {
+            "bgp_update_wait_for_convergence": true,
+            "bgp_update_wait_install": false,
+            "interface_storm_control": false,
+            "queue_monitor_length_notify": false
+          },
+          "management_interface": "Management1/1"
+        },
+        {
+          "platforms": [
+            "AWE-7220R"
+          ],
+          "feature_support": {
+            "bgp_update_wait_for_convergence": true,
+            "bgp_update_wait_install": false,
+            "interface_storm_control": false,
+            "queue_monitor_length_notify": false,
+            "poe": true
+          },
+          "management_interface": "Management1"
         }
       ],
       "title": "Platform Settings"
@@ -50774,6 +52112,37 @@
                 },
                 "title": "MAC Security"
               },
+              "tcp_mss_ceiling": {
+                "type": "object",
+                "description": "The TCP MSS clamping feature involves clamping the maximum segment size (MSS) in the TCP header\nof TCP SYN packets if it exceeds the configured MSS ceiling limit for the interface.",
+                "properties": {
+                  "ipv4_segment_size": {
+                    "type": "integer",
+                    "minimum": 64,
+                    "maximum": 65475,
+                    "title": "IPv4 Segment Size"
+                  },
+                  "ipv6_segment_size": {
+                    "type": "integer",
+                    "minimum": 64,
+                    "maximum": 65475,
+                    "title": "IPv6 Segment Size"
+                  },
+                  "direction": {
+                    "type": "string",
+                    "enum": [
+                      "egress",
+                      "ingress"
+                    ],
+                    "title": "Direction"
+                  }
+                },
+                "additionalProperties": false,
+                "patternProperties": {
+                  "^_.+$": {}
+                },
+                "title": "TCP Mss Ceiling"
+              },
               "channel_group": {
                 "type": "object",
                 "properties": {
@@ -51751,6 +53120,19 @@
               "transceiver": {
                 "type": "object",
                 "properties": {
+                  "frequency": {
+                    "type": "string",
+                    "description": "Transceiver Laser Frequency in GHz (min 190000, max 200000).",
+                    "title": "Frequency"
+                  },
+                  "frequency_unit": {
+                    "type": "string",
+                    "enum": [
+                      "ghz"
+                    ],
+                    "description": "Unit of Transceiver Laser Frequency.",
+                    "title": "Frequency Unit"
+                  },
                   "media": {
                     "type": "object",
                     "properties": {
@@ -58361,7 +59743,7 @@
     },
     "zscaler_endpoints": {
       "type": "object",
-      "description": "PREVIEW: These keys are in preview mode.\n\nSpecial data model used for WAN internet-exit integration with Zscaler.\nThe model is supposed to be autofilled per-device using the `arista.avd.cv_zscaler_endpoints` Ansible lookup plugin.\nExample:\n```yaml\nzscaler_endpoints: \"{{ lookup('arista.avd.cv_zscaler_endpoints', cv_server=\"<optional servername>\", cv_token=\"<optional token>\") }}\"\n```\nThe cv_server and cv_token options can be set as inventory variables instead of given as arguments. (Then they will also be used for cv_deploy)",
+      "description": "PREVIEW: These keys are in preview mode.\n\nSpecial data model used for testing the WAN internet-exit integration with Zscaler.\nThe model is supposed to be autofilled per-device by `eos_designs`.\nManually setting this model will take precedence and prevent `eos_designs` from trying to contact CloudVision.\nThis can be useful for offline testing or if CloudVision is not available or not configured for Zscaler integration.",
       "properties": {
         "primary": {
           "type": "object",
